@@ -7,13 +7,13 @@ import store from "./store";
 Vue.config.productionTip = false;
 
 const configOptions = {
-  apiKey: "",
-  authDomain: "vue-firebase-auth-2802d.firebaseapp.com",
-  databaseURL: "https://vue-firebase-auth-2802d.firebaseio.com",
-  projectId: "vue-firebase-auth-2802d",
-  storageBucket: "",
-  messagingSenderId: "",
-  appId: ""
+  apiKey: "AIzaSyBZe6nnTJEDxear8vJjvnmHLkQYEJJQAI0",
+  authDomain: "gestion-recursos.firebaseapp.com",
+  databaseURL: "https://gestion-recursos.firebaseio.com",
+  projectId: "gestion-recursos",
+  storageBucket: "gestion-recursos.appspot.com",
+  messagingSenderId: "1083091933827",
+  appId: "1:1083091933827:web:1c30ea64bcea60b42159b6"
 };
 
 firebase.initializeApp(configOptions);
